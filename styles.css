@@ -1,0 +1,29 @@
+#container {
+    margin: auto; /* Add this to center the container horizontally */
+    align-items: center; /* Center grid items vertically */
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin-top: 150px;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+#container > div {
+    border: 1px solid rgb(201, 185, 185);
+    display: flex;
+    background: #eee;
+    padding-bottom: 100%;
+    margin: -1px;
+  }
+  #container > div:hover {
+    background-color: rgb(0, 0, 0); 
+  }
+  .generate {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
