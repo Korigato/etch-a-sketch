@@ -21,7 +21,8 @@
     background-color: rgb(0, 0, 0); 
   }
   .generate {
-    width: 100px;
+    margin-left: 800px;
+    width: 300px;
     height: 100px;
     justify-content: center;
     align-items: center;
